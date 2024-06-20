@@ -1,2 +1,3 @@
 # javadoc-darkmode-stylesheet
-Using javadocs was destroying my eyeballs, this helps fix that ( a bit)
+
+The plugin [stylus](https://add0n.com/stylus.html) allows you to insert custom css for pages. The included css file is a "darkmode" coded quickly to hel[ be a bit more readable and eye-freindly. 
