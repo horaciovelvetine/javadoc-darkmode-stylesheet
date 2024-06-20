@@ -1,0 +1,145 @@
+/* ==UserStyle==
+@name           ? - Jun 2024
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+/* ==UserStyle==
+@name           ? - Jun 2024
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+@-moz-document domain("docs.oracle.com") {
+    /* Color scheme variables */
+    :root {
+        --background-color: #121212;
+        --text-color: #E0E0E0;
+        --link-color: #BB86FC;
+        --table-background: #333333;
+        --table-text: #FFFFFF;
+        --table-border: #444;
+        --nav-background: #2A2A2A;
+        --element-background: #333333;
+        --caption-background: #424242;
+        --list-background: #1E1E1E;
+    }
+
+    .block {
+        color: var(--text-color) !important;
+    }
+
+    body {
+        background-color: var(--background-color);
+        color: var(--text-color);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 76%;
+        margin: 0;
+    }
+
+    a:link,
+    a:visited,
+    a:hover,
+    a:focus,
+    a:active {
+        text-decoration: none;
+        color: var(--link-color);
+    }
+
+    pre,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    code,
+    tt {
+        font-size: 1em; /* !!!font size!!! */
+    }
+
+    ul,
+    dt,
+    dd {
+        list-style-type: disc;
+        font-size: 1em;
+    }
+
+    tr {
+        background-color: #1F1B24;
+        /* Darker background for table rows */
+    }
+
+    .bar,
+    .topNav,
+    .bottomNav,
+    .subNav {
+        background-color: var(--nav-background) !important;
+        color: var(--text-color) !important;
+    }
+
+    .tab,
+    .navBarCell1Rev,
+    .header,
+    .footer,
+    .indexHeader,
+    .title,
+    .subTitle {
+        background-color: var(--element-background) !important;
+        color: var(--text-color) !important;
+    }
+
+    .contentContainer,
+    .sourceContainer,
+    .classUseContainer,
+    .serializedFormContainer,
+    .constantValuesContainer,
+    .indexContainer {
+        background-color: #1E1E1E;
+        color: var(--text-color) !important;
+    }
+
+    table,
+    th,
+    td {
+        background-color: var(--table-background) !important;
+        color: var(--table-text) !important;
+        border: 1px solid var(--table-border) !important;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+
+    .overviewSummary caption,
+    .packageSummary caption,
+    .summary caption,
+    .classUseContainer caption,
+    .constantValuesContainer caption {
+        background-color: var(--caption-background) !important;
+        color: var(--text-color) !important;
+    }
+
+    ul.blockList,
+    ul.blockListLast,
+    ul.horizontal,
+    ul.inheritance {
+        background-color: var(--list-background) !important;
+        /* Consistent background for lists */
+    }
+    ul.blockList ul.blockList li.blockList {
+        background-color: var(--list-background) !important;
+    }
+    div.details ul.blockList ul.blockList ul.blockList li.blockList h4 {
+        background-color: var(--list-background) !important;
+    }
+    ul.blockList ul.blockList ul.blockList li.blockList h3 {
+        background-color: var(--list-background) !important;
+    }
+    div.details ul.blockList ul.blockList ul.blockListLast li.blockList h4 {
+        background-color: var(--list-background) !important;
+    }
+}
